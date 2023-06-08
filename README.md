@@ -8,7 +8,7 @@ This is a solution to the [Intro component with sign up form challenge on Fronte
 
 ### Links
 
-- [Live Site URL](https://bytepack-frontendmentor-signup.pages.dev/)
+- [Live Site URL](https://bytepack-frontendmentor-signup-form.pages.dev/)
 
 ### Built with
 
