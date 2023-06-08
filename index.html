@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up form</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="icomoon/icomoon.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<main>
+    <div class="page-section">
+        <div class="hero">
+            <h1 class="hero__title">
+                Learn to code by
+                <br>
+                watching others
+            </h1>
+            <p class="hero__description">
+                See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great,
+                but understanding how developer think is invaluable.
+            </p>
+        </div>
+        <div class="signup">
+            <p class="signup__promote">
+            <span class="signup__promote1">
+                <span class="signup__promote-important">Try it free 7 days</span> then
+            </span>
+                <span class="signup__promote2"> $20/mo. thereafter</span>
+            </p>
+            <form class="signup__form" novalidate >
+                <div class="signup__item">
+                    <div class="signup__input-container">
+                        <i class="icon-info signup__icon"></i>
+                        <input class="signup__input" data-placeholder="First Name" type="text" placeholder="First Name">
+                    </div>
+                    <p class="signup__error-msg">First Name can not be empty</p>
+                </div>
+
+                <div class="signup__item">
+                    <div class="signup__input-container">
+                        <i class="icon-info signup__icon"></i>
+                        <input class="signup__input" data-placeholder="Last Name" type="text" placeholder="Last Name">
+                    </div>
+                    <p class="signup__error-msg">Last Name can not be empty</p>
+                </div>
+
+                <div class="signup__item">
+                    <div class="signup__input-container">
+                        <i class="icon-info signup__icon"></i>
+                        <input class="signup__input" data-signup-email data-placeholder="Email Address" type="email" placeholder="Email Address">
+                    </div>
+                    <p class="signup__error-msg">Looks like this is not an email</p>
+                </div>
+
+                <div class="signup__item">
+                    <div class="signup__input-container">
+                        <i class="icon-info signup__icon"></i>
+                        <input class="signup__input" data-placeholder="Password" type="password" placeholder="Password">
+                    </div>
+                    <p class="signup__error-msg">Password can not be empty</p>
+                </div>
+
+                <button class="signup__submit" type="submit">Claim your free trial</button>
+                <p class="signup__terms">By clicking the button,
+                    you are agreeing to our <a class="signup__terms-link" href="#">Terms and Services</a>
+                </p>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>
